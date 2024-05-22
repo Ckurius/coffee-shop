@@ -1,0 +1,72 @@
+/* Minimal CSS Reset */
+* {
+    /* Entfernt alle Standard-Außenabstände (margin) von allen Elementen, 
+       um einheitliche Abstände zu gewährleisten und unerwartete Layout-Probleme zu vermeiden. */
+    margin: 0;
+    
+    /* Entfernt alle Standard-Innenabstände (padding) von allen Elementen, 
+       um einheitliche Abstände zu gewährleisten und unerwartete Layout-Probleme zu vermeiden. */
+    padding: 0;
+  
+    /* Setzt das Box-Modell auf border-box für alle Elemente, was bedeutet, 
+       dass die Breite und Höhe eines Elements die Innenabstände (padding) und Rahmen (border) einschließen. 
+       Dies macht das Layout berechenbarer und einfacher zu steuern. */
+    box-sizing: border-box;
+  
+    /* Setzt alle Rahmen (borders) auf 0 für alle Elemente. Dies entfernt alle Standard-Rahmenstile, 
+       die von Browsern gesetzt werden können, und sorgt für ein einheitliches Aussehen. */
+    border: 0;
+  
+    /* Vererbt die Schriftgröße (font-size) von den übergeordneten Elementen. 
+       Dies sorgt für eine konsistente Schriftgröße, da alle Elemente die Schriftgröße 
+       ihres Eltern-Elements übernehmen. */
+    font-size: inherit;
+  
+    /* Vererbt die Zeilenhöhe (line-height) von den übergeordneten Elementen. 
+       Dies sorgt für konsistente Zeilenhöhen, da alle Elemente die Zeilenhöhe 
+       ihres Eltern-Elements übernehmen. */
+    line-height: inherit;
+  
+    /* Entfernt die Standard-Listenstile (list-style) von allen Listen (ol, ul) und Listenelementen (li). 
+       Dies ist besonders nützlich, wenn du benutzerdefinierte Listenstile verwenden möchtest. */
+    list-style: none;
+ 
+
+  }
+
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+   }
+
+   .nav{
+    background-color: lightblue;
+    padding: 1rem;
+   }
+
+  .ul{
+    background-color: aqua;
+    justify-content:center;
+   }
+
+  .li{
+    background-color: brown;
+    padding: 1rem;
+    text-align: center;   
+    display:inline-flex;
+        
+  }
+
+  .main{
+    padding: 1rem;
+  }
+
+  h1{
+    text-align: center;
+    padding: 1rem;
+  }
+
+.section{
+   padding: 1rem;
+}
